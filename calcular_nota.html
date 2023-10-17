@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med na UEA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Como Calcular minha nota?</h1>
+    </div>
+    <div class="conteudo">
+        <div class="conhecimentos gerais">
+            <h2>Conhecimentos Gerais</h2>
+            <p>A nota de Conhecimentos Gerais será calulada da seguinte forma:</p>
+            <p>1° - <b>Muliplicar</b> o numero de questões corretas por 100;<br>
+               2° - <b>Dividir</b> o resultado da multiplicação por 84. 
+            </p>
+
+            <div>
+                <math class="formula">
+                    <mi> CG </mi>
+                    <mo> = </mo>
+                    <mfrac>
+                          <mrow>
+                                <mn> n° de questões corretas  </mn>
+                                <mo> x </mo>
+                                <mn> 100 </mn>
+                          </mrow>
+                          <mn>84</mn>
+                    </mfrac>
+              </math>
+            </div>
+        </div>
+        <div class="conhecimentos-especificos">
+            <h2>Conhecimentos Específicos + Redação</h2>
+            <p>A nota de Conhecimentos Específicos é dada por: </p>
+            <p>1° - A quantidade de questões corretas multiplicado por 2, somada com a nota da redação.</p>
+        
+            <div>
+                <math class="formula">
+                    <mi> CE </mi>
+                    <mo> = </mo>
+                    <mi> (n° de questões corretas </mi>
+                    <mo> x </mo>
+                    <mn> 2) </mn>
+                    <mo> + </mo>
+                    <mi>nota da redação</mi>
+                </math>
+            </div>
+        </div>
+
+        <div class="media">
+            <h2>Nota Final</h2>
+            <p>A nota final é a Média Aritmética da prova de CG e CE + Redação.</p>
+            
+            <div>
+                <math class="formula">
+                    <mi> NF </mi>
+                    <mo> = </mo>
+                    <mfrac>
+                          <mrow>
+                                <mn> Nota de CG  </mn>
+                                <mo> + </mo>
+                                <mn> (CE + Redação) </mn>
+                          </mrow>
+                          <mn>2</mn>
+                    </mfrac>
+              </math>
+            </div>     
+        </div>
+    </div>
+</body>
+</html>
