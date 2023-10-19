@@ -4,46 +4,6 @@ body{
     padding: 0px;
 }
 
-/*estilo do topo da pagina*/
-.topo{
-    background-color: #04a324;
-    padding: 5px;
-}
-/*estilo do titulo da pagina*/
-.topo h1{
-    text-align: center;
-    color: white;
-    text-shadow: 7px 3px 4px #08642c;
-}
-/*estilo do paragrafo*/
-.paragrafo p {
-text-align: center;
-}
-
-.uea {
-    font-weight: bold;
-}
-/*estilo da area de navegação pelos links*/
-.navegacao{
-    margin-left: 50px;
-}
-
-.navegacao li{
-    padding: 5px;
-    color: #046c24;
-}
-
-.navegacao ul li a {
-    color: #08642c;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.navegacao ul li a:hover{
-    text-decoration: underline;
-    color: #048c24;
-}
-
 
 /*estilo do rodapé do site*/
 .rodape{
